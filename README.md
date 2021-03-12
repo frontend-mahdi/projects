@@ -1,3 +1,2 @@
 # projects
-my projects
-responsive
+my responsive projects
