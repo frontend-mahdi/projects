@@ -1,0 +1,76 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  nav {
+    display: block;
+  }
+  nav li {
+    margin-right: 25px;
+    font-size: 0.9em;
+  }
+  .bars-icon {
+    display: none !important;
+  }
+  .search-icon {
+    width: 60px;
+    right: 0;
+  }
+  .newsletter-form {
+    width: 50vw;
+  }
+  footer {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  nav li {
+    margin-right: 35px;
+    font-size: 1.3em;
+  }
+  .newsletter-form {
+    width: 40vw;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .search-bar {
+    flex-direction: row;
+  }
+  .search-form {
+    flex-direction: row;
+  }
+  .newsletter-container {
+    flex-direction: row;
+  }
+  .newsletter-form {
+    flex-direction: row;
+    align-items: center;
+  }
+  .newsletter-form button {
+    padding: 19px 15px;
+    margin-left: 5px;
+  }
+  .newsletter-form input {
+    margin-left: 10px;
+  }
+}
+
+/* Extra Extra large */
+@media (min-width: 1574px) {
+  .popular {
+    margin: 0 calc(350px / 2);
+  }
+}
+@media (min-width: 1930px) {
+  .popular {
+    margin: 0 350px;
+  }
+}
